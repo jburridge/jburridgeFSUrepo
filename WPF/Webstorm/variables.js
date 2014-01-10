@@ -3,15 +3,15 @@
  */
 
 
-//var question=prompt("What is your favorite partial number?");
-//var questionTwo=prompt("What is your favorite whole number?");
-//var thingy="Your favorite partial and whole number together is ";
-//var answer=parseFloat(question)+parseInt(questionTwo);
-//
-//
-//console.log(thingy+answer);
-//
-//console.log("I performed addition on "+question+" and "+questionTwo+" and the answer was "+answer+".");
+var question=prompt("What is your favorite partial number?");
+var questionTwo=prompt("What is your favorite whole number?");
+var thingy="Your favorite partial and whole number together is ";
+var answer=parseFloat(question)+parseInt(questionTwo);
+
+
+console.log(thingy+answer);
+
+console.log("I performed addition on "+question+" and "+questionTwo+" and the answer was "+answer+".");
 
 var shoppingList=["eggs","chicken","brownRice","veg"];
 console.log(shoppingList);
