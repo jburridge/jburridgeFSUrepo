@@ -23,21 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="personal.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Conditionals_Personal/JavaScript/personal.js">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Conditionals_Wacky/Html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="1" selection-start="557" selection-end="557" vertical-scroll-proportion="0.38848922" vertical-offset="0" max-vertical-offset="695">
-              <folding>
-                <element signature="e#0#40#0" expanded="false" />
-              </folding>
+            <state line="9" column="7" selection-start="132" selection-end="132" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Conditionals_Personal/Html/index.html">
+      <file leaf-file-name="wacky.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Conditionals_Wacky/JavaScript/wacky.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="7" selection-start="127" selection-end="127" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="225">
+            <state line="6" column="0" selection-start="190" selection-end="190" vertical-scroll-proportion="0.1294964" vertical-offset="0" max-vertical-offset="695">
               <folding />
             </state>
           </provider>
@@ -58,6 +56,7 @@
         <option value="$PROJECT_DIR$/Conditionals_Wacky/Html/index.html" />
         <option value="$PROJECT_DIR$/Conditionals_Industry/JavaScript/industry.js" />
         <option value="$PROJECT_DIR$/Conditionals_Personal/JavaScript/personal.js" />
+        <option value="$PROJECT_DIR$/Conditionals_Wacky/JavaScript/wacky.js" />
       </list>
     </option>
   </component>
@@ -111,18 +110,8 @@
               <option name="myItemId" value="Conditionals subproject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Conditionals subproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Conditionals subproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Conditionals_Personal" />
+              <option name="myItemId" value="Conditionals_Wacky" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -140,7 +129,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Conditionals_Personal" />
+              <option name="myItemId" value="Conditionals_Wacky" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -151,14 +140,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Conditionals subproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Conditionals_Personal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Html" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -278,11 +259,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conditionals_Wacky/Html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="7" selection-start="132" selection-end="132" vertical-scroll-proportion="0.20119224" vertical-offset="0" max-vertical-offset="671" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals_Industry/Html/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="7" selection-start="135" selection-end="135" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
@@ -310,6 +286,20 @@
           <folding>
             <element signature="e#0#40#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conditionals_Wacky/Html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="7" selection-start="132" selection-end="132" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conditionals_Wacky/JavaScript/wacky.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="190" selection-end="190" vertical-scroll-proportion="0.1294964" vertical-offset="0" max-vertical-offset="695">
+          <folding />
         </state>
       </provider>
     </entry>
