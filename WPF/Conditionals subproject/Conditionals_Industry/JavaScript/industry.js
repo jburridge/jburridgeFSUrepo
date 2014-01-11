@@ -20,5 +20,11 @@ if (peopleProgram>=peopleProgramNeed && peopleDesign>=peopleDesignNeed) {
     if (peopleProgram<peopleProgramNeed) {
 //if you do not have enough then console log how many programmers you still need
         console.log("You do not have enough programmers, you need "+peopleProgramLeft+" more programmer(s).");
-
-   
+    } else {
+//now checking to see if you have enough designers
+        if (peopleDesign>peopleDesignNeed) {
+//if you do not have enough then console log how many designers you still need
+            console.log("You do not have enough designers, you need "+peopleDesignLeft+" more designer(s).");
+        }
+    }
+}
