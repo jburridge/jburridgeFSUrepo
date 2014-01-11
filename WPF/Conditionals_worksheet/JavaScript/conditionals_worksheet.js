@@ -32,21 +32,21 @@
 
 //Check the Login
 
-var createUser=prompt("Please create your username");
+//var createUser=prompt("Please create your username");
+//var createPass=prompt("Please create your password");
+//var loginUser=prompt("Now please login with your username");
+//
+//if (loginUser==createUser) {
+//    var loginPass=prompt("Please enter your password");
+//    if (loginPass==createPass) {
+//        console.log("Welcome, "+createUser+", You have logged in!");
+//    } else {
+//        console.log("Incorrect password, Refresh please.");
+//    }
+//} else {
+//    console.log("Incorrect username, Refresh please.");
+//}
 
 
-if (createUser==createUser) {
-    var createPass=prompt("Please create your password");
-}
 
-if (createPass==createPass) {
-    var loginUser=prompt("Now please login with your username");
-}
-
-
-
-
-if (loginUser==createUser) {
-    var loginPass=prompt("Please enter your password");
-} else console.log("Incorrect username");
-
+//Movie Ticket Price
