@@ -15,3 +15,7 @@ if (runCalc<0) {
 } else {
 // if your run time is greater than or equal to 0
     if (runCalc>=0) {
+//console log you beat the goal
+        console.log("You've achieved yesterdays goal! Now keep pushing!");
+    }
+}
