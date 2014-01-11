@@ -12,6 +12,9 @@
 //    console.log("Not Qualified");
 //}
 
+
+
+
 //Celsius Fahrenheit Converter
 
 //var temperature=prompt("What is your current temperature?");
@@ -24,3 +27,26 @@
 //} else {
 //    console.log(celsius);
 //}
+
+
+
+//Check the Login
+
+var createUser=prompt("Please create your username");
+
+
+if (createUser==createUser) {
+    var createPass=prompt("Please create your password");
+}
+
+if (createPass==createPass) {
+    var loginUser=prompt("Now please login with your username");
+}
+
+
+
+
+if (loginUser==createUser) {
+    var loginPass=prompt("Please enter your password");
+} else console.log("Incorrect username");
+

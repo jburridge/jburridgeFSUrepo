@@ -14,14 +14,14 @@
 
 //Slice of Pie part 1
 
-//var pizza=prompt("How many pizzas where ordered?");
-//var pizzaSlice=prompt("How many slices per pizza are their?");
-//var people=prompt("How many people are attending the party?");
-//var slicesOfPizza=pizzaSlice*pizza;
-//var slicePerPerson=slicesOfPizza/people;
-//var slicesLeftover=slicesOfPizza%people;
+var pizza=prompt("How many pizzas where ordered?");
+var pizzaSlice=prompt("How many slices per pizza are their?");
+var people=prompt("How many people are attending the party?");
+var slicesOfPizza=pizzaSlice*pizza;
+var slicePerPerson=slicesOfPizza/people;
+var slicesLeftover=slicesOfPizza%people;
 
-//console.log("Each person at the party will get "+slicePerPerson+" slices of pizza");
+console.log("Each person at the party will get "+slicePerPerson+" slices of pizza");
 
 
 
@@ -46,13 +46,13 @@
 
 //Discounts
 
-var itemPrice=prompt("What is the price of the item?");
-var itemNewPrice=itemPrice*.20;
-var itemNewPricee=itemPrice-itemNewPrice;
-
-var itemTax=itemNewPricee*.08;
-var itemTaxx=itemNewPricee+itemTax;
-
-
-console.log("The original price of the item is $"+itemPrice+". The discount is 20%. The discounted price of" +
-    " the item is $"+itemNewPricee+". The discounted price of the item with sales tax is $"+itemTaxx);
+//var itemPrice=prompt("What is the price of the item?");
+//var itemNewPrice=itemPrice*.20;
+//var itemNewPricee=itemPrice-itemNewPrice;
+//
+//var itemTax=itemNewPricee*.08;
+//var itemTaxx=itemNewPricee+itemTax;
+//
+//
+//console.log("The original price of the item is $"+itemPrice+". The discount is 20%. The discounted price of" +
+//    " the item is $"+itemNewPricee+". The discounted price of the item with sales tax is $"+itemTaxx);
