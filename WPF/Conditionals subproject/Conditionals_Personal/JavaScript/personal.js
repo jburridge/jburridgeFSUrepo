@@ -10,3 +10,7 @@ var runCalc=runTime-runGoal;
 
 //If your run time is less than 0
 if (runCalc<0) {
+//console log you did not beat yesterdays goal
+    console.log("Sorry you did not beat yesterdays goal...");
+
+   
