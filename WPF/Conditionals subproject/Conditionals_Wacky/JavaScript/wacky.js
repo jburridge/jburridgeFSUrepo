@@ -5,11 +5,11 @@
 //setting up variables
 var oranges=parseInt(prompt("How many oranges do you have?"));
 var bananas=parseInt(prompt("How many bananas do you have?"));
-var whatToDo=prompt("Would you like to 'multiply', 'divide', 'add' or 'subtract' your oranges and bananas?");
-var orangeBan=oranges-bananas
-var banOrange=oranges+bananas
-var orangeMulBan=oranges*bananas
-var orangeDivBan=oranges/bananas
+var whatToDo=prompt("Would you like to /'multiply/', /'divide/', /'add/' or /'subtract/' your oranges and bananas?");
+var orangeBan=oranges-bananas;
+var banOrange=oranges+bananas;
+var orangeMulBan=oranges*bananas;
+var orangeDivBan=oranges/bananas;
 
 //if whattodo is multiply
 if (whatToDo==multiply) {
@@ -30,6 +30,9 @@ if (whatToDo==multiply) {
             if (whatToDo==subtract) {
 //console log subtracted yellow oranges
                 console.log("Woah, You now have "+orangeBan+" yellow oranges!");
+            } else {
+//console log something went wrong
+                console.log("You've entered an incorrect value, Please refresh and try again.");
             }
         }
     }
