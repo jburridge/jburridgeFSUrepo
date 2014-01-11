@@ -26,7 +26,7 @@
       <file leaf-file-name="expressions_worksheet.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JavaScript/expressions_worksheet.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="69" selection-start="690" selection-end="690" vertical-scroll-proportion="0.64748204" vertical-offset="0" max-vertical-offset="945">
+            <state line="39" column="36" selection-start="844" selection-end="874" vertical-scroll-proportion="0.4820144" vertical-offset="250" max-vertical-offset="945">
               <folding />
             </state>
           </provider>
@@ -97,7 +97,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -160,6 +159,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,6 +173,14 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -183,23 +191,15 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -260,6 +260,27 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/JavaScript/expressions_worksheet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="69" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="7" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Css/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/expressions_worksheet.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="57" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="945">
@@ -339,7 +360,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/expressions_worksheet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="69" selection-start="690" selection-end="690" vertical-scroll-proportion="0.64748204" vertical-offset="0" max-vertical-offset="945">
+        <state line="39" column="36" selection-start="844" selection-end="874" vertical-scroll-proportion="0.4820144" vertical-offset="250" max-vertical-offset="945">
           <folding />
         </state>
       </provider>

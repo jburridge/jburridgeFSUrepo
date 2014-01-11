@@ -50,3 +50,17 @@
 
 
 //Movie Ticket Price
+
+//var yourAge=prompt("What is your age?");
+//var whatTime=prompt("What time is it? (The hour only please)");
+//
+//
+//if (whatTime>=3 && whatTime <=5){
+//    console.log("You get discounted price of $7!");
+//} else {
+//    if (yourAge<=10 || yourAge>=55){
+//        console.log("You get discounted price of $7!");
+//    } else {
+//        console.log("You get normal price of $12, Sorry dude!");
+//        }
+//    }
