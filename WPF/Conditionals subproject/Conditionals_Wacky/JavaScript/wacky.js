@@ -31,9 +31,12 @@ if (whatToDo=="multiply") {
 //console log subtracted yellow oranges
                 console.log("Woah, You now have "+orangeBan+" yellow oranges!");
             } else {
+//prompting for what else the user wants to do
 var somethingElse=prompt("Clearly you don't want to add,substract,multiply or divide. So what is it you want to do?");
-
             }
         }
     }
 }
+
+//check if somethingelse variable has been touched
+console.log("Sorry but I'm an untrained robot, I don't know how to "+somethingElse".");
