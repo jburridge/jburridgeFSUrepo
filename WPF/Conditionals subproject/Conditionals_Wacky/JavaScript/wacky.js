@@ -31,8 +31,8 @@ if (whatToDo=="multiply") {
 //console log subtracted yellow oranges
                 console.log("Woah, You now have "+orangeBan+" yellow oranges!");
             } else {
-//console log something went wrong
-                console.log("You've entered an incorrect value, Please refresh and try again.");
+var somethingElse=prompt("Clearly you don't want to add,substract,multiply or divide. So what is it you want to do?");
+
             }
         }
     }
