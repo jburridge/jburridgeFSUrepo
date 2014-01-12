@@ -43,3 +43,4 @@ if (somethingElse!="") {
 //display console log if something else does not = nothing
     console.log("Sorry but I'm an untrained robot, I don't know how to "+somethingElse);
 }
+
