@@ -39,7 +39,7 @@ var somethingElse=prompt("Clearly you don't want to add,substract,multiply or di
 }
 
 //check if somethingelse variable has been touched
-if (somethingElse!="") {
+if (somethingElse != undefined) {
 //display console log if something else does not = nothing
     console.log("Sorry but I'm an untrained robot, I don't know how to "+somethingElse);
 }
