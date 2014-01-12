@@ -39,4 +39,6 @@ var somethingElse=prompt("Clearly you don't want to add,substract,multiply or di
 }
 
 //check if somethingelse variable has been touched
-console.log("Sorry but I'm an untrained robot, I don't know how to "+somethingElse".");
+if (somethingElse!="") {
+    console.log("Sorry but I'm an untrained robot, I don't know how to "+somethingElse".");
+}
