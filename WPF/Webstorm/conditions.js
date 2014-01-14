@@ -136,10 +136,9 @@ world[9][9]="desert";
 var rowString="";
 
 for (loopItt2=0; loopItt2<world.length;loopItt2++){
-    for (loopItt=0; loopItt<world.length;loopItt++){
-        rowString=rowString+world[loopItt][loopItt2];
-        rowString=rowString+"\t";
+    for (loopItt=0; loopItt<world[loopItt2].length;loopItt++){
+        rowString=rowString+world[loopItt][loopItt2]+"\t";
     }
-rowString=rowString+"\n";
+rowString=rowString+"\n"+"\n";
 }
 console.log(rowString);
