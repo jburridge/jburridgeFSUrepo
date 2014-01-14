@@ -5,6 +5,8 @@
 var world=[];
 
 
+
+
 world[0]=[];
 world[1]=[];
 world[2]=[];
@@ -126,27 +128,18 @@ world[9][7]="desert";
 world[9][8]="desert";
 world[9][9]="desert";
 
-if(world[0][0]=="water"){
-    console.log("WATER");
-} else if(world[0][0]=="forest"){
-    console.log("FOREST");
-} else {
-    console.log("DESERT");
-}
+//for (loopItt=0; loopItt<world.length;loopItt++){
+//       rowString=rowString+world[0][loopItt];
+//       rowString=rowString+"\t";
+//}
 
-//var y=200;
-//var x=100;
-//var z=300;
-//if (x==y){
-//    console.log("X is equal to Y.. In another world.");
-//}
-//else {
-//    console.log("Yeah that isn't happening.");
-//}
-//
-//if (z>x){
-//    console.log("Z is greater than X!");
-//}
-//else {
-//    console.log("Z is not greater than X!");
-//}
+var rowString="";
+
+for (loopItt2=0; loopItt2<world.length;loopItt2++){
+    for (loopItt=0; loopItt<world.length;loopItt++){
+        rowString=rowString+world[loopItt][loopItt2];
+        rowString=rowString+"\t";
+    }
+rowString=rowString+"\n";
+}
+console.log(rowString);

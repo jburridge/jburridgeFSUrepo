@@ -35,7 +35,7 @@
       <file leaf-file-name="conditionals_worksheet.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JavaScript/conditionals_worksheet.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="10" selection-start="1330" selection-end="1330" vertical-scroll-proportion="0.7410072" vertical-offset="340" max-vertical-offset="1035">
+            <state line="59" column="10" selection-start="1330" selection-end="1330" vertical-scroll-proportion="1.2302158" vertical-offset="0" max-vertical-offset="1035">
               <folding />
             </state>
           </provider>
@@ -88,6 +88,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -150,7 +151,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -159,6 +159,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../expressions_worksheet" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -169,23 +177,15 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -248,6 +248,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Html/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="58" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/conditionals_worksheet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="10" selection-start="1330" selection-end="1330" vertical-scroll-proportion="0.0" vertical-offset="885" max-vertical-offset="1035">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="58" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
           <folding />
         </state>
@@ -302,7 +316,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/conditionals_worksheet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="10" selection-start="1330" selection-end="1330" vertical-scroll-proportion="0.7410072" vertical-offset="340" max-vertical-offset="1035">
+        <state line="59" column="10" selection-start="1330" selection-end="1330" vertical-scroll-proportion="1.2302158" vertical-offset="0" max-vertical-offset="1035">
           <folding />
         </state>
       </provider>
