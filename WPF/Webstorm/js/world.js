@@ -1,10 +1,8 @@
 /**
- * Created by Justin on 1/10/14.
+ * Created by Justin on 1/15/14.
  */
 
 var world=[];
-
-
 
 
 world[0]=[];
@@ -127,18 +125,3 @@ world[9][6]="desert";
 world[9][7]="desert";
 world[9][8]="desert";
 world[9][9]="desert";
-
-//for (loopItt=0; loopItt<world.length;loopItt++){
-//       rowString=rowString+world[0][loopItt];
-//       rowString=rowString+"\t";
-//}
-
-var rowString="";
-
-for (loopItt2=0; loopItt2<world.length;loopItt2++){
-    for (loopItt=0; loopItt<world[loopItt2].length;loopItt++){
-        rowString=rowString+world[loopItt][loopItt2]+"\t";
-    }
-rowString=rowString+"\n"+"\n";
-}
-console.log(rowString);

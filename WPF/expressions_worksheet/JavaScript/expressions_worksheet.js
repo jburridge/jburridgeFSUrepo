@@ -3,6 +3,17 @@
  */
 
 
+
+// the = is an assignment, There are 3 kinds of assignments, augmented, chained, and parallel.
+    // *=multiplication, -=subtraction, +=addition, /=division, > is greater than, < is less than, >= and <= is greater than or
+//equal to and less than or equal to. && means and, || means or.
+
+
+
+
+
+
+
 //Dog Years
 
 //var humanYears=prompt("How many human years is sparky?");
