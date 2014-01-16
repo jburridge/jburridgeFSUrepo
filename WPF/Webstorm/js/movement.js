@@ -3,8 +3,8 @@
  */
 
 var grid="";
-var column=1;
-var row=1;
+var column=0;
+var row=0;
 var moveCondition=true;
 var character="<XXXX>";
 
@@ -28,7 +28,7 @@ while (moveCondition) {
     console.clear();
     console.log(grid);
 
-    var moveDirection=prompt("Which direction would you like to move? \n Left, Right, Up, Down, or End.".toLowerCase());
+    var moveDirection=prompt("Which direction would you like to move? \n Left, Right, Up, Down, or End.").toLowerCase();
     if (moveDirection=="up") {
         row--;
     } else if (moveDirection=="down") {
@@ -39,11 +39,20 @@ while (moveCondition) {
         column++;
     } else if (moveDirection=="end") {
         moveCondition=false;
+    } else if (moveDirection==null) {
+        moveCondition=false;
     }
 
-//console.log(world[column][row]); // Allows us to check where the new position of the prompt is
+    if (row>=world.length) {
+        row=0;
+    } else if (row<0){
+        row=world.length-1;
+    } else if (column>=world.length) {
+        column=0;
+    } else if (column<0) {
+        column=world.length-1;
+    }
+
 }
 
-
-//set the grid loop
 
