@@ -6,19 +6,18 @@ var grid="";
 var column=0;
 var row=0;
 var moveCondition=true;
-var character="<XXXX>";
+var characterPosition="<XXXX>";
 
 
 
 
-
-//create a loop for moving the moveDirection
+//create a loop for moving the player
 while (moveCondition) {
     grid="";
     for (xPosition=0; xPosition<world.length;xPosition++){
         for (yPosition=0; yPosition<world[xPosition].length;yPosition++){
             if (row==xPosition && column==yPosition) {
-                grid=grid+character+"\t";
+                grid=grid+characterPosition+"\t";
             } else{
                 grid=grid+world[yPosition][xPosition]+"\t";
             }
@@ -27,7 +26,8 @@ while (moveCondition) {
     }
     console.clear();
     console.log(grid);
-
+    console.log(characterBackpack);
+//assigning the move directions
     var moveDirection=prompt("Which direction would you like to move? \n Left, Right, Up, Down, or End.").toLowerCase();
     if (moveDirection=="up") {
         row--;
@@ -42,7 +42,7 @@ while (moveCondition) {
     } else if (moveDirection==null) {
         moveCondition=false;
     }
-
+//making the world spherical
     if (row>=world.length) {
         row=0;
     } else if (row<0){
@@ -55,4 +55,18 @@ while (moveCondition) {
 
 }
 
+//random loot function
+var randomLoot=loot[Math.floor(Math.random()*loot.length)];
+var randomRareLoot=rareLoot[Math.floor(Math.random()*rareLoot.length)];
+var randomInteger=Math.random()+11;
+var randomInteger2=Math.random()+11;
+
+function eventMove () {
+    if (randomInteger==randomInteger2) {
+        characterBackpack=characterBackpack+randomRareLoot;
+    }
+    else if (randomInteger==1||5||9) {
+        characterBackpack=characterBackpack+randomLoot;
+    }
+}
 

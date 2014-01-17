@@ -26,25 +26,47 @@
       <file leaf-file-name="world.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/world.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="236" column="27" selection-start="5117" selection-end="5117" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3690">
+            <state line="136" column="27" selection-start="2281" selection-end="2364" vertical-scroll-proportion="0.0" vertical-offset="1743" max-vertical-offset="3780">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="movement.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="movement.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/movement.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="58" selection-start="273" selection-end="273" vertical-scroll-proportion="0.36690646" vertical-offset="0" max-vertical-offset="960">
+            <state line="57" column="0" selection-start="1428" selection-end="1890" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="1170">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="character.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/character.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="4" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+              <folding>
+                <element signature="e#0#40#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="items.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/items.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="42" selection-end="398" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+              <folding>
+                <element signature="e#0#40#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="25" selection-start="55" selection-end="55" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="240">
+            <state line="4" column="39" selection-start="113" selection-end="113" vertical-scroll-proportion="0.08941878" vertical-offset="0" max-vertical-offset="671">
               <folding />
             </state>
           </provider>
@@ -63,17 +85,20 @@
         <option value="$PROJECT_DIR$/variables.js" />
         <option value="$PROJECT_DIR$/expressions_worksheet.js" />
         <option value="$PROJECT_DIR$/conditions.js" />
-        <option value="$PROJECT_DIR$/js/movement.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/world2.js" />
         <option value="$PROJECT_DIR$/index2.html" />
+        <option value="$PROJECT_DIR$/js/eventmove.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/movement.js" />
         <option value="$PROJECT_DIR$/js/world.js" />
+        <option value="$PROJECT_DIR$/js/items.js" />
+        <option value="$PROJECT_DIR$/js/character.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="116" />
-    <option name="y" value="73" />
+    <option name="x" value="72" />
+    <option name="y" value="36" />
     <option name="width" value="1287" />
     <option name="height" value="792" />
   </component>
@@ -103,7 +128,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -138,6 +162,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -217,7 +242,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="116" y="73" width="1287" height="792" extended-state="0" />
+    <frame x="72" y="36" width="1287" height="792" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -258,6 +283,48 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/world.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="236" column="27" selection-start="5117" selection-end="5117" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3690">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/movement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="58" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="7" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/world.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="236" column="27" selection-start="5117" selection-end="5117" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3690">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/movement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="58" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="25" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/world.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="125" column="21" selection-start="42" selection-end="2367" vertical-scroll-proportion="0.0" vertical-offset="1875" max-vertical-offset="1965">
@@ -411,23 +478,41 @@
         <state line="25" column="0" selection-start="655" selection-end="655" vertical-scroll-proportion="0.53956836" vertical-offset="0" max-vertical-offset="695" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/character.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="25" selection-start="55" selection-end="55" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="240">
+        <state line="4" column="4" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/movement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="0" selection-start="1428" selection-end="1890" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="1170">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/world.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="236" column="27" selection-start="5117" selection-end="5117" vertical-scroll-proportion="0.0" vertical-offset="2935" max-vertical-offset="3690">
+        <state line="136" column="27" selection-start="2281" selection-end="2364" vertical-scroll-proportion="0.0" vertical-offset="1743" max-vertical-offset="3780">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/movement.js">
+    <entry file="file://$PROJECT_DIR$/js/items.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="58" selection-start="273" selection-end="273" vertical-scroll-proportion="0.36690646" vertical-offset="0" max-vertical-offset="960">
+        <state line="4" column="0" selection-start="42" selection-end="398" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="39" selection-start="113" selection-end="113" vertical-scroll-proportion="0.08941878" vertical-offset="0" max-vertical-offset="671">
           <folding />
         </state>
       </provider>
