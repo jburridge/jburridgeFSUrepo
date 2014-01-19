@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="6" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="300">
+            <state line="11" column="6" selection-start="275" selection-end="275" vertical-scroll-proportion="0.24590164" vertical-offset="0" max-vertical-offset="671">
               <folding />
             </state>
           </provider>
@@ -68,10 +68,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="movement.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="movement.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/movement.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="27" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="1185">
+            <state line="30" column="27" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1185">
               <folding />
             </state>
           </provider>
@@ -104,8 +104,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="73" />
-    <option name="y" value="37" />
+    <option name="x" value="81" />
+    <option name="y" value="62" />
     <option name="width" value="1287" />
     <option name="height" value="792" />
   </component>
@@ -184,14 +184,6 @@
     <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -202,15 +194,23 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -249,8 +249,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="73" y="37" width="1287" height="792" extended-state="0" />
-    <editor active="false" />
+    <frame x="81" y="62" width="1287" height="792" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -583,13 +583,6 @@
         <state line="25" column="0" selection-start="655" selection-end="655" vertical-scroll-proportion="0.53956836" vertical-offset="0" max-vertical-offset="695" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="6" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/character.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="65" column="71" selection-start="2483" selection-end="2483" vertical-scroll-proportion="0.0" vertical-offset="520" max-vertical-offset="1215">
@@ -621,6 +614,13 @@
     <entry file="file://$PROJECT_DIR$/js/movement.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="27" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="1185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="6" selection-start="275" selection-end="275" vertical-scroll-proportion="0.24590164" vertical-offset="0" max-vertical-offset="671">
           <folding />
         </state>
       </provider>
