@@ -4,8 +4,8 @@
 
 //setting up variables
 
-var runGoal=prompt("How long did you run yesterday?");
-var runTime=prompt("How long did you run today?");
+var runGoal=parseInt(prompt("How long did you run yesterday?"));
+var runTime=parseInt(prompt("How long did you run today?"));
 var runCalc=runTime-runGoal;
 
 //If your run time is less than 0

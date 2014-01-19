@@ -35,9 +35,9 @@
         <option value="$PROJECT_DIR$/Conditionals_Personal/Html/index.html" />
         <option value="$PROJECT_DIR$/Conditionals_Industry/Html/index.html" />
         <option value="$PROJECT_DIR$/Conditionals_Wacky/Html/index.html" />
-        <option value="$PROJECT_DIR$/Conditionals_Personal/JavaScript/personal.js" />
         <option value="$PROJECT_DIR$/Conditionals_Wacky/JavaScript/wacky.js" />
         <option value="$PROJECT_DIR$/Conditionals_Industry/JavaScript/industry.js" />
+        <option value="$PROJECT_DIR$/Conditionals_Personal/JavaScript/personal.js" />
       </list>
     </option>
   </component>
@@ -91,56 +91,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Conditionals subproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Conditionals subproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Conditionals_Industry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Conditionals subproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Conditionals subproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Conditionals_Industry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Conditionals subproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Conditionals subproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Conditionals_Industry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -151,6 +101,14 @@
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -161,23 +119,15 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -240,9 +190,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Conditionals_Wacky/Html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="7" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
+        <state line="9" column="7" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals_Wacky/JavaScript/wacky.js">
@@ -254,9 +202,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals_Wacky/Html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="7" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
+        <state line="9" column="7" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals_Wacky/JavaScript/wacky.js">
@@ -293,23 +239,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals_Industry/Html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="7" selection-start="135" selection-end="135" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
+        <state line="9" column="7" selection-start="135" selection-end="135" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conditionals_Industry/JavaScript/industry.js">
+    <entry file="file://$PROJECT_DIR$/Conditionals_Wacky/Html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="66" selection-start="713" selection-end="713" vertical-scroll-proportion="0.34532374" vertical-offset="0" max-vertical-offset="695">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conditionals_Personal/JavaScript/personal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="1" selection-start="557" selection-end="557" vertical-scroll-proportion="0.43165466" vertical-offset="0" max-vertical-offset="695">
-          <folding />
-        </state>
+        <state line="9" column="7" selection-start="132" selection-end="132" vertical-scroll-proportion="0.20119224" vertical-offset="0" max-vertical-offset="671" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals_Wacky/JavaScript/wacky.js">
@@ -319,9 +254,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conditionals_Wacky/Html/index.html">
+    <entry file="file://$PROJECT_DIR$/Conditionals_Personal/JavaScript/personal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="7" selection-start="132" selection-end="132" vertical-scroll-proportion="0.20119224" vertical-offset="0" max-vertical-offset="671">
+        <state line="7" column="21" selection-start="152" selection-end="152" vertical-scroll-proportion="0.15107913" vertical-offset="0" max-vertical-offset="695">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conditionals_Industry/JavaScript/industry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="87" selection-start="401" selection-end="401" vertical-scroll-proportion="0.19424461" vertical-offset="0" max-vertical-offset="695">
           <folding />
         </state>
       </provider>

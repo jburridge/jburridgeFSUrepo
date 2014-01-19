@@ -4,10 +4,10 @@
 
 //Assigning variables
 
-var peopleProgram=prompt("How many people at work are programmers?");
-var peopleDesign=prompt("How many people at work are designers?");
-var peopleProgramNeed=prompt("How many programmers are needed for the project?");
-var peopleDesignNeed=prompt("How many designers are needed for the project?");
+var peopleProgram=parseInt(prompt("How many people at work are programmers?"));
+var peopleDesign=parseInt(prompt("How many people at work are designers?"));
+var peopleProgramNeed=parseInt(prompt("How many programmers are needed for the project?"));
+var peopleDesignNeed=parseInt(prompt("How many designers are needed for the project?"));
 var peopleProgramLeft=peopleProgramNeed-peopleProgram;
 var peopleDesignLeft=peopleDesignNeed-peopleDesign;
 

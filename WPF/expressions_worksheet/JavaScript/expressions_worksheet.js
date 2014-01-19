@@ -25,9 +25,9 @@
 
 //Slice of Pie part 1
 
-var pizza=prompt("How many pizzas where ordered?");
-var pizzaSlice=prompt("How many slices per pizza are their?");
-var people=prompt("How many people are attending the party?");
+var pizza=parseInt(prompt("How many pizzas where ordered?"));
+var pizzaSlice=parseInt(prompt("How many slices per pizza are their?"));
+var people=parseInt(prompt("How many people are attending the party?"));
 var slicesOfPizza=pizzaSlice*pizza;
 var slicePerPerson=slicesOfPizza/people;
 var slicesLeftover=slicesOfPizza%people;
