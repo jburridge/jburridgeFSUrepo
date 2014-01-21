@@ -56,15 +56,6 @@ characterStats[experience][funModifier]="";
 characterStats[currency][stat]=Math.floor((Math.random()*15)+3);
 characterStats[currency][funModifier]="";
 
-var statDisplay=
-"Strength:      \t"+characterStats[0][0]+"\tExperience:\t"+characterStats[8][0]+"\n"+
-"Dexterity:     \t"+characterStats[1][0]+"\tGold:\t\t"+characterStats[9][0]+"\n"+
-"Intelligence:  \t"+characterStats[2][0]+"\n"+
-"Stamina:       \t"+characterStats[3][0]+"\n\n"+
-
-"Armor:         \t"+characterStats[6][0]+"\tHealth:\t\t"+characterStats[4][2]+"/"+characterStats[4][1]+"\n"+
-"Damage:        \t"+characterStats[7][1]+"\tMana:\t\t"+characterStats[5][2]+"/"+characterStats[5][1];
-
 
 
 //3-18|str            exp:

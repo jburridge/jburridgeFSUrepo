@@ -9,10 +9,11 @@ var moveCondition=true;
 var characterPosition="<XXXX>";
 
 
-
-
 //create a loop for moving the player and creating the grid
 while (moveCondition) {
+    var randomMonsterHealth=Math.floor((Math.random()*5)+5);
+    var randomMonsterDamage=Math.floor((Math.random()*5)+5);
+    var monsterMaker = makeMonster(world, monster, row, column);
     grid="";
     for (xPosition=0; xPosition<world.length;xPosition++){
         for (yPosition=0; yPosition<world[xPosition].length;yPosition++){
@@ -26,9 +27,32 @@ while (moveCondition) {
     }
     console.clear();
     console.log(grid);
-   // console.log(characterBackpackDisplay);
-    console.log(makeMonster(world, monster, row, column));
+
+    if (monsterMaker!="No battles found.") {
+        var mobHealth="Health: "+randomMonsterHealth;
+        var mobDamage="Damage: "+randomMonsterDamage;
+    } else {
+        mobHealth="\t";
+        mobDamage="\t";
+    }
+
+//start stat display
+        var statDisplay=
+
+        "Strength:      \t"+characterStats[0][0]+"\tExperience:\t"+characterStats[8][0]+"\t |"+
+            "\t"+ monsterMaker +"\n"+
+            "Dexterity:     \t"+characterStats[1][0]+"\tGold:\t\t"+characterStats[9][0]+"\t |"+
+            "\t"+mobHealth+"\n"+
+            "Intelligence:  \t"+characterStats[2][0]+"\t"+"\t"+"\t"+"\t"+" |"+
+            "\t"+mobDamage+"\n"+
+            "Stamina:       \t"+characterStats[3][0]+"\t"+"\t"+"\t"+"\t"+" |"+"\n"+"\t"+"\t"+"\t"+"\t"+"\t"+"\t |"+"\n"+
+
+            "Armor:         \t"+characterStats[6][0]+"\tHealth:\t\t"+characterStats[4][2]+"/"+characterStats[4][1]+"\t |"+"\n"+
+            "Damage:        \t"+characterStats[7][1]+"\tMana:\t\t"+characterStats[5][2]+"/"+characterStats[5][1]+"\t |";
+
     console.log(statDisplay);
+//end stat display
+
 
 
 //assigning the move directions
@@ -59,16 +83,4 @@ while (moveCondition) {
 
 }
 
-//random loot function
 
-//function eventMove (characterBackpack) {
-//    var randomLoot=loot[Math.floor(Math.random()*loot.length)];
-//    var randomRareLoot=rareLoot[Math.floor(Math.random()*rareLoot.length)];
-//    var randomInteger=Math.random();
-//    if (randomInteger<.1) {
-//        characterBackpack=characterBackpack+randomRareLoot;
-//    } else if (randomInteger<.5) {
-//        characterBackpack=characterBackpack+randomLoot;
-//    }
-//    return characterBackpack;
-//}
