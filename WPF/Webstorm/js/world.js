@@ -145,10 +145,9 @@ function newLevel(world) {
     completedWorld[3]=[];
     completedWorld[4]=[];
     completedWorld[5]=[];
-
     for (i=0; i<10; i++) {
-        for (j=0; j<world[i]; j++) {
-            completedWorld[0][i][j]=makeMonster(completedWorld[0], monster, i, j)
+        for (j=0; j<world.length; j++) {
+
             if (world[i][j] == "dungeon" && settingLevel == true) {
                 levelX1=i;
                 levelY1=j;
@@ -161,24 +160,29 @@ function newLevel(world) {
     }
 
     for (i=0; i<10; i++) {
-        completedWorld[1][i]=[];
-        completedWorld[2][i]=[];
-        completedWorld[3][i]=[];
-        completedWorld[4][i]=[];
-        completedWorld[5][i]=[];
-        for (j=0; j<world[i]; j++) {
+        completedWorld[1][i]=[]; //dungeon
+        completedWorld[2][i]=[]; //monsters for 0
+        completedWorld[3][i]=[]; //monsters for 1
+        completedWorld[4][i]=[]; //treasure for 0
+        completedWorld[5][i]=[]; //treasure for 1
+        for (j=0; j<world[i].length; j++) {
             var randomWorldSeed=Math.random();
             //cave 1/3, lava 1/3, dirt 1/3, ladder on dungeon square
 
             if ((i == levelX1 && j == levelY1) || (i == levelX2 && j == levelY2)) {
-                completedWorld[1][i][j]="Ladder";
+                completedWorld[1][i][j]="ladder";
             } else if (randomWorldSeed <= 1/3) {
-                completedWorld[1][i][j]="Caves";
+                completedWorld[1][i][j]="caves";
             } else if (randomWorldSeed <= 2/3) {
-                completedWorld[1][i][j]="Lava";
+                completedWorld[1][i][j]="lava";
             } else {
-                completedWorld[1][i][j]="Dirt";
+                completedWorld[1][i][j]="dirt";
             }
+        }
+    }
+    for (i=0; i<world.length; i++) {
+        for (j=0; j<world[i].length; j++) {
+            completedWorld[2][i][j]=makeMonster(completedWorld[0], monster, i, j);
         }
     }
     return completedWorld;
