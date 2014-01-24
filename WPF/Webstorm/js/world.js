@@ -6,6 +6,7 @@ var world=[];
 var water="water";
 var forest="forest";
 var desert="desert";
+var dungeon="dungeon";
 
 world[0]=[];
 world[1]=[];
@@ -65,7 +66,7 @@ world[3][8]=forest;
 world[3][9]=forest;
 
 world[4][0]=forest;
-world[4][1]=forest;
+world[4][1]=dungeon;
 world[4][2]=forest;
 world[4][3]=forest;
 world[4][4]=forest;
@@ -98,7 +99,7 @@ world[6][8]=desert;
 world[6][9]=desert;
 
 world[7][0]=forest;
-world[7][1]=forest;
+world[7][1]=dungeon;
 world[7][2]=water;
 world[7][3]=water;
 world[7][4]=forest;
@@ -130,117 +131,56 @@ world[9][7]=desert;
 world[9][8]=desert;
 world[9][9]=desert;
 
-//Third Dimension
+function newLevel(world) {
 
-//world[0][0][0]=eventMove(characterBackpack);
-//world[0][1][0]=eventMove(characterBackpack);
-//world[0][2][0]=eventMove(characterBackpack);
-//world[0][3][0]=eventMove(characterBackpack);
-//world[0][4][0]=eventMove(characterBackpack);
-//world[0][5][0]=eventMove(characterBackpack);
-//world[0][6][0]=eventMove(characterBackpack);
-//world[0][7][0]=eventMove(characterBackpack);
-//world[0][8][0]=eventMove(characterBackpack);
-//world[0][9][0]=eventMove(characterBackpack);
-//
-//world[1][0][0]=eventMove(characterBackpack);
-//world[1][1][0]=eventMove(characterBackpack);
-//world[1][2][0]=eventMove(characterBackpack);
-//world[1][3][0]=eventMove(characterBackpack);
-//world[1][4][0]=eventMove(characterBackpack);
-//world[1][5][0]=eventMove(characterBackpack);
-//world[1][6][0]=eventMove(characterBackpack);
-//world[1][7][0]=eventMove(characterBackpack);
-//world[1][8][0]=eventMove(characterBackpack);
-//world[1][9][0]=eventMove(characterBackpack);
-//
-//world[2][0][0]=eventMove(characterBackpack);
-//world[2][1][0]=eventMove(characterBackpack);
-//world[2][2][0]=eventMove(characterBackpack);
-//world[2][3][0]=eventMove(characterBackpack);
-//world[2][4][0]=eventMove(characterBackpack);
-//world[2][5][0]=eventMove(characterBackpack);
-//world[2][6][0]=eventMove(characterBackpack);
-//world[2][7][0]=eventMove(characterBackpack);
-//world[2][8][0]=eventMove(characterBackpack);
-//world[2][9][0]=eventMove(characterBackpack);
-//
-//world[3][0][0]=eventMove(characterBackpack);
-//world[3][1][0]=eventMove(characterBackpack);
-//world[3][2][0]=eventMove(characterBackpack);
-//world[3][3][0]=eventMove(characterBackpack);
-//world[3][4][0]=eventMove(characterBackpack);
-//world[3][5][0]=eventMove(characterBackpack);
-//world[3][6][0]=eventMove(characterBackpack);
-//world[3][7][0]=eventMove(characterBackpack);
-//world[3][8][0]=eventMove(characterBackpack);
-//world[3][9][0]=eventMove(characterBackpack);
-//
-//world[4][0][0]=eventMove(characterBackpack);
-//world[4][1][0]=eventMove(characterBackpack);
-//world[4][2][0]=eventMove(characterBackpack);
-//world[4][3][0]=eventMove(characterBackpack);
-//world[4][4][0]=eventMove(characterBackpack);
-//world[4][5][0]=eventMove(characterBackpack);
-//world[4][6][0]=eventMove(characterBackpack);
-//world[4][7][0]=eventMove(characterBackpack);
-//world[4][8][0]=eventMove(characterBackpack);
-//world[4][9][0]=eventMove(characterBackpack);
-//
-//world[5][0][0]=eventMove(characterBackpack);
-//world[5][1][0]=eventMove(characterBackpack);
-//world[5][2][0]=eventMove(characterBackpack);
-//world[5][3][0]=eventMove(characterBackpack);
-//world[5][4][0]=eventMove(characterBackpack);
-//world[5][5][0]=eventMove(characterBackpack);
-//world[5][6][0]=eventMove(characterBackpack);
-//world[5][7][0]=eventMove(characterBackpack);
-//world[5][8][0]=eventMove(characterBackpack);
-//world[5][9][0]=eventMove(characterBackpack);
-//
-//world[6][0][0]=eventMove(characterBackpack);
-//world[6][1][0]=eventMove(characterBackpack);
-//world[6][2][0]=eventMove(characterBackpack);
-//world[6][3][0]=eventMove(characterBackpack);
-//world[6][4][0]=eventMove(characterBackpack);
-//world[6][5][0]=eventMove(characterBackpack);
-//world[6][6][0]=eventMove(characterBackpack);
-//world[6][7][0]=eventMove(characterBackpack);
-//world[6][8][0]=eventMove(characterBackpack);
-//world[6][9][0]=eventMove(characterBackpack);
-//
-//world[7][0][0]=eventMove(characterBackpack);
-//world[7][1][0]=eventMove(characterBackpack);
-//world[7][2][0]=eventMove(characterBackpack);
-//world[7][3][0]=eventMove(characterBackpack);
-//world[7][4][0]=eventMove(characterBackpack);
-//world[7][5][0]=eventMove(characterBackpack);
-//world[7][6][0]=eventMove(characterBackpack);
-//world[7][7][0]=eventMove(characterBackpack);
-//world[7][8][0]=eventMove(characterBackpack);
-//world[7][9][0]=eventMove(characterBackpack);
-//
-//world[8][0][0]=eventMove(characterBackpack);
-//world[8][1][0]=eventMove(characterBackpack);
-//world[8][2][0]=eventMove(characterBackpack);
-//world[8][3][0]=eventMove(characterBackpack);
-//world[8][4][0]=eventMove(characterBackpack);
-//world[8][5][0]=eventMove(characterBackpack);
-//world[8][6][0]=eventMove(characterBackpack);
-//world[8][7][0]=eventMove(characterBackpack);
-//world[8][8][0]=eventMove(characterBackpack);
-//world[8][9][0]=eventMove(characterBackpack);
-//
-//world[9][0][0]=eventMove(characterBackpack);
-//world[9][1][0]=eventMove(characterBackpack);
-//world[9][2][0]=eventMove(characterBackpack);
-//world[9][3][0]=eventMove(characterBackpack);
-//world[9][4][0]=eventMove(characterBackpack);
-//world[9][5][0]=eventMove(characterBackpack);
-//world[9][6][0]=eventMove(characterBackpack);
-//world[9][7][0]=eventMove(characterBackpack);
-//world[9][8][0]=eventMove(characterBackpack);
-//world[9][9][0]=eventMove(characterBackpack);
+    var levelX1=0;
+    var levelX2=0;
+    var levelY1=0;
+    var levelY2=0;
+    var settingLevel = true;
+    var completedWorld=[];
+    completedWorld[0]=world;
+    completedWorld[1]=[];
+    completedWorld[2]=[];
+    completedWorld[3]=[];
+    completedWorld[4]=[];
+    completedWorld[5]=[];
 
+    for (i=0; i<10; i++) {
+        for (j=0; j<world[i]; j++) {
+            completedWorld[0][i][j]=makeMonster(completedWorld[0], monster, i, j)
+            if (world[i][j] == "dungeon" && settingLevel == true) {
+                levelX1=i;
+                levelY1=j;
+                settingLevel=false;
+            } else if (world[i][j] == "dungeon") {
+                levelX2=i;
+                levelY2=j;
+            }
+        }
+    }
 
+    for (i=0; i<10; i++) {
+        completedWorld[1][i]=[];
+        completedWorld[2][i]=[];
+        completedWorld[3][i]=[];
+        completedWorld[4][i]=[];
+        completedWorld[5][i]=[];
+        for (j=0; j<world[i]; j++) {
+            var randomWorldSeed=Math.random();
+            //cave 1/3, lava 1/3, dirt 1/3, ladder on dungeon square
 
+            if ((i == levelX1 && j == levelY1) || (i == levelX2 && j == levelY2)) {
+                completedWorld[1][i][j]="Ladder";
+            } else if (randomWorldSeed <= 1/3) {
+                completedWorld[1][i][j]="Caves";
+            } else if (randomWorldSeed <= 2/3) {
+                completedWorld[1][i][j]="Lava";
+            } else {
+                completedWorld[1][i][j]="Dirt";
+            }
+        }
+    }
+    return completedWorld;
+}
+var multipleLevels = newLevel(world);

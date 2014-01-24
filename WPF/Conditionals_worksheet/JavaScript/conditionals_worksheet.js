@@ -22,12 +22,7 @@
 //var fahrenheit=(temperature-32)*(5/9);
 //var celsius=temperature*(9/5)+32;
 //
-//if (fOrC.toLowerCase()=="f"){
-//    console.log(fahrenheit);
-//} else {
-//    console.log(celsius);
-//}
-
+//(fOrC.toLowerCase()=="f")?console.log(fahrenheit):console.log(celsius);
 
 
 //Check the Login

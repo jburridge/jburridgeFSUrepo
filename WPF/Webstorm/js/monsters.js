@@ -39,7 +39,7 @@ monster[frostGolem][dropGold]=[8,18];
 monster[frostGolem][monsterHealth]=randomMonsterHealth;
 monster[frostGolem][monsterDamage]=randomMonsterDamage;
 
-function makeMonster(world, monster, row, column){
+function makeMonster(world, monster, column, row){
 
     var spawnChance=Math.random();
     var normalSpawn=.5;
