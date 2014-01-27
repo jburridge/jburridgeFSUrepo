@@ -19,8 +19,6 @@ world[7]=[];
 world[8]=[];
 world[9]=[];
 
-//Second Dimension
-
 world[0][0]=water;
 world[0][1]=water;
 world[0][2]=water;
@@ -180,11 +178,19 @@ function newLevel(world) {
             }
         }
     }
+
+
+
+
     for (i=0; i<world.length; i++) {
         for (j=0; j<world[i].length; j++) {
             completedWorld[2][i][j]=makeMonster(completedWorld[0], monster, i, j);
         }
     }
+
+
+
+
     return completedWorld;
 }
 var multipleLevels = newLevel(world);
