@@ -5,7 +5,9 @@
     //setting variables that generate a random decimal number and rounds it down
 var random1=Math.floor(Math.random()*3);
 var random2=Math.floor(Math.random()*3);
+//0-3
 var random3=Math.floor(Math.random()*3);
+//0-5000
 var random4=Math.floor(Math.random()*5000);
 
 //start of a function with 4 parameters
@@ -14,14 +16,22 @@ function calculate (random1, random2, random3, random4) {
     var returnMe="";
     //starting condition where 3 variables must be equal to fourth variable
     if (random1&&random2&&random3==random4) {
+        //setting variable to new string if condition true
         returnMe="----------------------------That's nearly impossible, You should invest in lottery.";
+        //if any number is equal to 4
     } else if (random1==random4 || random2==random4 || random3==random4) {
+        //setting variable to new string if condition true
         returnMe="You are one lucky person! You should invest in lottery.";
+        //if first three variables equal eachother
     } else if (random1==random2 && random2 == random3) {
+        //setting variable to new string if condition true
         returnMe="Now that's some tough odds to get, Good job!";
+        //if any first variable equals one another
     } else if (random1==random2 || random2==random3) {
+        //setting variable to new string if condition true
         returnMe="Mehh, That was simple...";
     } else {
+        //setting variable to new string if all conditions false
         returnMe="No luck here boss."
     }
     return returnMe;
