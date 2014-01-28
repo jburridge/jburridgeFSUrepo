@@ -23,11 +23,17 @@ function teach (learn, level) {
         gibberish="Functions can hold any kind of code that can be re-used in multiple instances. Functions can not use variables inside or outside of them without passing them through as a parameter or returning the value of something.";
 //if wrong then else if learn and level equal to something else
     } else if (learn=="variables" && level=="basic") {
+//if true set gibberish to string
         gibberish="Variables can hold information.";
+//if wrong then else if learn and level equal to something else
     } else if (learn=="variables" && level=="advanced") {
+//if true set gibberish to string
         gibberish="Variables can hold all kinds of information for you to use or change at anytime. A variable can hold a function, expression, you can even change the variable somewhere else with a conditional!";
+//if wrong then else if learn and level equal to something else
     } else if (learn=="conditionals" && level=="basic") {
+//if true set gibberish to string
         gibberish="Conditionals ask the script a question and perform upon that question.";
+//if wrong then else if learn and level equal to something else
     } else if (learn=="conditionals" && level=="advanced") {
         gibberish="Conditionals are used to ask your script a question for example, is var people > 5? If yes, it will perform a action. If not, It will perform a 'no' action.";
     } else {
