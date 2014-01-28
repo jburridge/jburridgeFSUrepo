@@ -2,16 +2,17 @@
  * Created by Justin on 1/19/14.
  */
 
-
+//console logging a few unimportant things
 console.log("Today I will teach you how to wash your hands for personal hygiene");
 console.log("Lets find out if you've washed you're hands correctly");
 
+//setting variables to prompts for user input
 var didWet=prompt("Did you wet your hands? Yes or No");
 var didSoap=prompt("Did you apply soap and scrub? Yes or No");
 var didRinse=prompt("Did you rinse your hands? Yes or No");
 var didDry=prompt("Did you dry your hands? Yes or No");
 
-
+//creating a function with 4 parameters
 function calculate (didWet, didSoap, didRinse, didDry) {
     theValue="";
     if (didWet=="yes" && didSoap=="yes" && didRinse=="yes" && didDry=="yes") {
