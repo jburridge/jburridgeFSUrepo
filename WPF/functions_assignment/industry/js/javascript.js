@@ -35,13 +35,19 @@ function teach (learn, level) {
         gibberish="Conditionals ask the script a question and perform upon that question.";
 //if wrong then else if learn and level equal to something else
     } else if (learn=="conditionals" && level=="advanced") {
+//if true set gibberish to string
         gibberish="Conditionals are used to ask your script a question for example, is var people > 5? If yes, it will perform a action. If not, It will perform a 'no' action.";
+//if wrong do something else
     } else {
+//set condition to false which will stop the loop
         condition=false;
+//set gibberish to string
         gibberish="You may have made a typo, Refresh to try again!"
     }
+//return gibberish so it can be used outside the function
     return gibberish;
 }
+//clear the console to remove old strings
     console.clear();
     console.log(teach(learn,level));
 }
