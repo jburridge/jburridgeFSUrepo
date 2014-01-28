@@ -22,3 +22,14 @@ function calculate (didWet, didSoap, didRinse, didDry) {
         theValue=(2*3)+1;
     }
 
+    if (theValue==6) {
+        theValue="You followed all steps and washed your hands correctly!";
+    } else if (theValue==23) {
+        theValue="You followed some steps but not all of them!";
+    } else if (theValue==7) {
+        theValue="You did not follow any steps, Please wash your hands again.";
+    }
+    return theValue;
+}
+
+console.log(calculate(didWet, didSoap, didRinse, didDry));
