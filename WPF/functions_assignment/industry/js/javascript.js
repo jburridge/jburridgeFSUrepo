@@ -13,7 +13,7 @@ while (condition) {
 function teach (learn, level) {
 //setting gibberish variable to empty string
     var gibberish="";
-
+//starting a condition if learn and level both equal a specific value
     if (learn=="functions" && level=="basic") {
         gibberish="Functions are a block of re-usable code to be called somewhere else to perform.";
     } else if (learn=="functions" && level=="advanced") {
