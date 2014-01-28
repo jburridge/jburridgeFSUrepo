@@ -15,8 +15,9 @@ function teach (learn, level) {
     var gibberish="";
 //starting a condition if learn and level both equal a specific value
     if (learn=="functions" && level=="basic") {
-//if condition true set gibberish to string
+//if true set gibberish to string
         gibberish="Functions are a block of re-usable code to be called somewhere else to perform.";
+//if wrong then else if learn and level equal to something else
     } else if (learn=="functions" && level=="advanced") {
         gibberish="Functions can hold any kind of code that can be re-used in multiple instances. Functions can not use variables inside or outside of them without passing them through as a parameter or returning the value of something.";
     } else if (learn=="variables" && level=="basic") {
