@@ -2,8 +2,8 @@
  * Created by Justin on 1/17/14.
  */
 
-var randomMonsterHealth=Math.floor((Math.random()*5)+5);
-var randomMonsterDamage=Math.floor((Math.random()*5)+5);
+var randomMonsterHealth=[3,18];
+var randomMonsterStr=[3,18];
 
 var type=0;
 var expValue=1;
@@ -31,37 +31,37 @@ monster[troll][type]="Troll";
 monster[troll][expValue]=5;
 monster[troll][dropGold]=[2,6];
 monster[troll][monsterHealth]=randomMonsterHealth;
-monster[troll][monsterDamage]=randomMonsterDamage;
+monster[troll][monsterDamage]=randomMonsterStr;
 
 monster[sandworm][type]="Sandworm";
 monster[sandworm][expValue]=10;
 monster[sandworm][dropGold]=[4,12];
 monster[sandworm][monsterHealth]=randomMonsterHealth;
-monster[sandworm][monsterDamage]=randomMonsterDamage;
+monster[sandworm][monsterDamage]=randomMonsterStr;
 
 monster[frostGolem][type]="Frost Golem";
 monster[frostGolem][expValue]=15;
 monster[frostGolem][dropGold]=[8,18];
 monster[frostGolem][monsterHealth]=randomMonsterHealth;
-monster[frostGolem][monsterDamage]=randomMonsterDamage;
+monster[frostGolem][monsterDamage]=randomMonsterStr;
 
 monster[moltenPup][type]="Molten Pup";
 monster[moltenPup][expValue]=15;
 monster[moltenPup][dropGold]=[8,18];
 monster[moltenPup][monsterHealth]=randomMonsterHealth;
-monster[moltenPup][monsterDamage]=randomMonsterDamage;
+monster[moltenPup][monsterDamage]=randomMonsterStr;
 
 monster[nightLurker][type]="Night Lurker";
 monster[nightLurker][expValue]=15;
 monster[nightLurker][dropGold]=[8,18];
 monster[nightLurker][monsterHealth]=randomMonsterHealth;
-monster[nightLurker][monsterDamage]=randomMonsterDamage;
+monster[nightLurker][monsterDamage]=randomMonsterStr;
 
 monster[mudMonster][type]="Mud Monster";
 monster[mudMonster][expValue]=15;
 monster[mudMonster][dropGold]=[8,18];
 monster[mudMonster][monsterHealth]=randomMonsterHealth;
-monster[mudMonster][monsterDamage]=randomMonsterDamage;
+monster[mudMonster][monsterDamage]=randomMonsterStr;
 
 function makeMonster(world, monster, column, row){
 

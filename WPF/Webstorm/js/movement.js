@@ -7,14 +7,17 @@ var row=0;
 var moveCondition=true;
 var characterPosition="<XXXX>";
 var currentLayer=0;
+var randomMonsterHealth=Math.floor((Math.random()*5)+5);
+var randomMonsterDamage=Math.floor((Math.random()*5)+5);
+var monsterMaker = makeMonster(world, monster, column, row);
 
 while (moveCondition) {
+    randomMonsterHealth=Math.floor((Math.random()*5)+5);
+    randomMonsterDamage=Math.floor((Math.random()*5)+5);
+    monsterMaker = makeMonster(world, monster, column, row);
 
-    var randomMonsterHealth=Math.floor((Math.random()*5)+5);
-    var randomMonsterDamage=Math.floor((Math.random()*5)+5);
-    var monsterMaker = makeMonster(world, monster, column, row);
 
-    console.clear();
+    //console.clear();
     console.log(worldDisplay(multipleLevels[currentLayer], column, row, characterPosition));
 
     if (monsterMaker!="No battles found.") {
