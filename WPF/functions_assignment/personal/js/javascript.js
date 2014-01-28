@@ -15,10 +15,13 @@ var didDry=prompt("Did you dry your hands? Yes or No");
 //creating a function with 4 parameters
 function calculate (didWet, didSoap, didRinse, didDry) {
     theValue="";
+    //starting a conditional if all values are yes
     if (didWet=="yes" && didSoap=="yes" && didRinse=="yes" && didDry=="yes") {
         theValue=(5-7)+(2*1)-(0-2)+4;
+        //if any value is yes
     } else if (didDry=="yes" || didRinse=="yes" || didSoap=="yes" || didWet=="yes") {
         theValue=(2/1)+(7*3);
+        //if no values are yes
     } else {
         theValue=(2*3)+1;
     }
