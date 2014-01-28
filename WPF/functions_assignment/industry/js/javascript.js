@@ -49,5 +49,6 @@ function teach (learn, level) {
 }
 //clear the console to remove old strings
     console.clear();
+//log to console the returned value of the teach function
     console.log(teach(learn,level));
 }
