@@ -22,9 +22,30 @@ function calculate (random1, random2, random3, random4) {
     }
     return returnMe;
 }
-console.log("You must match atleast 2 numbers to have some sort of luck...");
+console.log("You must match at least 2 numbers to have some sort of luck...");
 console.log(random1);
 console.log(random2);
 console.log(random3);
 console.log(random4);
 console.log(calculate(random1, random2, random3, random4));
+
+
+
+
+
+//This script checks your odds for mega millions to see if you beat the odds when you refresh!
+//Or another way to look at it is, This is how much $1 tickets you would have to buy to win mega millions.
+
+//var game=true;
+//x=0;
+//while (game==true) {
+//    var odds=Math.round(Math.random()*256000000);
+//
+//    if(odds<2){
+//        game=false;
+//    }
+//    x++
+//
+//}
+//console.log(x);
+//console.log("End!")
