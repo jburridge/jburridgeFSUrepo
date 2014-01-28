@@ -25,15 +25,17 @@ function calculate (didWet, didSoap, didRinse, didDry) {
     } else {
         theValue=(2*3)+1;
     }
-
+//starting conditional that just uses the math from the prior conditional so that I used expressions
     if (theValue==6) {
+        //settings theValue to a string depending on what the condition was
         theValue="You followed all steps and washed your hands correctly!";
     } else if (theValue==23) {
         theValue="You followed some steps but not all of them!";
     } else if (theValue==7) {
         theValue="You did not follow any steps, Please wash your hands again.";
     }
+    //returning theValue string
     return theValue;
 }
-
+//consolelog the returned value of calculate function
 console.log(calculate(didWet, didSoap, didRinse, didDry));
