@@ -69,6 +69,28 @@ if ((Math.floor(Math.random()*20)+dexModifier)>Math.floor(Math.random()*20)+mons
 }
 
 function theFight (characterStats, monster) {
-
 }
 
+
+
+
+
+
+
+//add two arrays containing which player and monster ifnromaiton
+function combat(player, monster) {
+//function
+
+//initial roll
+
+
+
+
+
+//to hti rool for player
+//damage player
+//to hit roll monster
+//damage monster
+//evaluate the combat
+
+}

@@ -36,7 +36,7 @@ while (moveCondition) {
                                                                                           "\n"+"\t"+"\t"+"\t"+"\t"+"\t"+"\t |"+"\n"+
     "Armor:         \t"+characterStats[6][0]+   "\tHealth:       \t"+characterStats[4][2]+"/"+characterStats[4][1]+     "\t |"+"\n"+
     "Damage:        \t"+characterStats[7][1]+   "\tMana:         \t"+characterStats[5][2]+"/"+characterStats[5][1]+     "\t |";
-    console.log(statDisplay);
+//    console.log(statDisplay);
 
 
     var moveDirection=prompt("Which direction would you like to move? \n Left, Right, Up, Down, Enter, Exit or End.").toLowerCase();
@@ -67,4 +67,8 @@ while (moveCondition) {
     } else if (column<0) {
         column=world.length-1;
     }
+}
+
+if (moveDirection=="left" && ) {
+    playerStats=combat(playerStats, multipleLevels[currentLayer+2][column][row]);
 }

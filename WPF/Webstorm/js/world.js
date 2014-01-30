@@ -182,8 +182,6 @@ function newLevel(world) {
     for (i=0; i<world.length; i++) {
         for (j=0; j<world[i].length; j++) {
             completedWorld[2][i][j]=makeMonster(completedWorld[1], monster, i, j);
-            console.log(completedWorld[1]);
-            console.log(makeMonster(completedWorld[1], monster, i, j));
 
             makeMonster(completedWorld[1], monster, i, j)
 
