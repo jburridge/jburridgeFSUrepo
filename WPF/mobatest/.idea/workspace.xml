@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bded24ce-4dbd-4e3b-afc9-115e55ef22ce" name="Default" comment="" />
-    <ignored path="Learning.iws" />
+    <list default="true" id="2411289f-b6f0-4aaa-aeaf-dfe7523650bb" name="Default" comment="" />
+    <ignored path="mobatest.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,23 +19,23 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="Learning" />
+    <favorites_list name="mobatest" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file:///Applications/MAMP/htdocs/mobatest/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="425" selection-end="425" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="345">
+            <state line="11" column="9" selection-start="261" selection-end="261" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="300">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="javascript.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/script/javascript.js">
+      <file leaf-file-name="world.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file:///Applications/MAMP/htdocs/mobatest/world.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="1" selection-start="892" selection-end="892" vertical-scroll-proportion="0.62589926" vertical-offset="0" max-vertical-offset="695">
+            <state line="23" column="31" selection-start="520" selection-end="520" vertical-scroll-proportion="0.4388489" vertical-offset="40" max-vertical-offset="735">
               <folding />
             </state>
           </provider>
@@ -52,13 +52,16 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/script/javascript.js" />
+        <option value="$PROJECT_DIR$/world.js" />
+        <option value="/Applications/MAMP/htdocs/index.html" />
+        <option value="/Applications/MAMP/htdocs/mobatest/world.js" />
+        <option value="/Applications/MAMP/htdocs/mobatest/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="103" />
-    <option name="y" value="68" />
+    <option name="x" value="72" />
+    <option name="y" value="39" />
     <option name="width" value="1287" />
     <option name="height" value="792" />
   </component>
@@ -88,47 +91,41 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Learning" />
+              <option name="myItemId" value="mobatest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Learning" />
+              <option name="myItemId" value="mobatest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
+              <option name="myItemId" value="mobatest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../functions_assignment/industry" />
+    <property name="last_opened_file_path" value="/Applications/MAMP/htdocs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="/Applications/MAMP/htdocs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="/Applications/MAMP/htdocs" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -172,14 +169,14 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bded24ce-4dbd-4e3b-afc9-115e55ef22ce" name="Default" comment="" />
-      <created>1391118231768</created>
-      <updated>1391118231768</updated>
+      <changelist id="2411289f-b6f0-4aaa-aeaf-dfe7523650bb" name="Default" comment="" />
+      <created>1391469539952</created>
+      <updated>1391469539952</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="103" y="68" width="1287" height="792" extended-state="0" />
+    <frame x="72" y="39" width="1287" height="792" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -218,100 +215,37 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file:///Applications/MAMP/htdocs/mobatest/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="72" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+        <state line="14" column="7" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/javascript.js">
+    <entry file="file:///Applications/MAMP/htdocs/mobatest/world.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="13" selection-start="933" selection-end="1399" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="780">
+        <state line="36" column="50" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="735">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file:///Applications/MAMP/htdocs/rpg/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="72" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+        <state line="8" column="19" selection-start="0" selection-end="555" vertical-scroll-proportion="0.17883755" vertical-offset="0" max-vertical-offset="671">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/javascript.js">
+    <entry file="file:///Applications/MAMP/htdocs/mobatest/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="1" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="525">
+        <state line="11" column="9" selection-start="261" selection-end="261" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="300">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file:///Applications/MAMP/htdocs/mobatest/world.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="21" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/javascript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="28" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="15" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/javascript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="19" selection-start="115" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/javascript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="18" selection-start="211" selection-end="946" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="570">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="39" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/javascript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="120">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="425" selection-end="425" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="345">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/javascript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="1" selection-start="892" selection-end="892" vertical-scroll-proportion="0.62589926" vertical-offset="0" max-vertical-offset="695">
+        <state line="23" column="31" selection-start="520" selection-end="520" vertical-scroll-proportion="0.4388489" vertical-offset="40" max-vertical-offset="735">
           <folding />
         </state>
       </provider>

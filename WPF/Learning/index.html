@@ -1,14 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
     <script src="script/javascript.js"></script>
     <title></title>
 </head>
 <body>
 
-<form action="" method="post">
-    <p>Email: <input type="text" name="email" id="getEmail"/> <button onclick="getEmail(emails)">Click to generate password</button></p>
+<form action="" id="theForm">
+    <p>Email: <input type="text" name="email" id="getEmail" value="Hey there"/> </p>
+
+    <input type="submit" id="submit" class="submit" onsubmit="setAction()">
 </form>
+<button onclick="checkEmail(emails)">Click to generate password</button>
+
 
 </body>
 </html>
