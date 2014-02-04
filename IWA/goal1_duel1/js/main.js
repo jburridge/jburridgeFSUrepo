@@ -18,25 +18,26 @@ function fight (player1, player2, player1hp, player2hp) {
         player2hp-=playerOneDamage;
         player1hp-=playerTwoDamage;
 
-        function checkWinner (player1health, player2health) {
-            var theCondition = undefined;
-            if (player1health<=0 && player2health<=0) {
-                theCondition="Draw";
-                alert("Draw!");
-            } else if (player1health<=0) {
-                theCondition="Player 2 wins";
-                alert("Player 2 wins!");
-            } else if (player2health<=0) {
-                theCondition="Player 1 wins";
-                alert("Player 1 wins!");
-            }
-            return theCondition;
-        }
-        if (checkWinner(player1hp, player2hp)=="Draw" || checkWinner(player1hp, player2hp)=="Player 2 wins" || checkWinner(player1hp, player2hp)=="Player 1 wins" ) {
-
+        var checkWinnerOutput = checkWinner(player1hp, player2hp);
+        if (checkWinnerOutput =="Draw" || checkWinnerOutput=="Player 2 wins" || checkWinnerOutput=="Player 1 wins" ) {
             break;
         }
     }
+}
+
+function checkWinner (player1health, player2health) {
+    var theCondition = undefined;
+    if (player1health<=0 && player2health<=0) {
+        theCondition="Draw";
+        alert("Draw!");
+    } else if (player1health<=0) {
+        theCondition="Player 2 wins";
+        alert("Player 2 wins!");
+    } else if (player2health<=0) {
+        theCondition="Player 1 wins";
+        alert("Player 1 wins!");
+    }
+    return theCondition;
 }
 
 fight(playerOneName, playerTwoName, playerOneHealth, playerTwoHealth);

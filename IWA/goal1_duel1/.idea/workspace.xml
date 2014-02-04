@@ -26,7 +26,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="40" selection-start="533" selection-end="533" vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="720">
+            <state line="17" column="17" selection-start="313" selection-end="313" vertical-scroll-proportion="-8.583333" vertical-offset="49" max-vertical-offset="720">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.8797654" vertical-offset="0" max-vertical-offset="690">
+            <state line="21" column="118" selection-start="728" selection-end="728" vertical-scroll-proportion="0.41007194" vertical-offset="0" max-vertical-offset="705">
               <folding>
                 <element signature="e#0#39#0" expanded="false" />
               </folding>
@@ -59,8 +59,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="75" />
-    <option name="y" value="68" />
+    <option name="x" value="69" />
+    <option name="y" value="49" />
     <option name="width" value="1287" />
     <option name="height" value="792" />
   </component>
@@ -208,7 +208,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="75" y="68" width="1287" height="792" extended-state="0" />
+    <frame x="69" y="49" width="1287" height="792" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -256,14 +256,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="40" selection-start="533" selection-end="533" vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="720">
+        <state line="17" column="17" selection-start="313" selection-end="313" vertical-scroll-proportion="-8.583333" vertical-offset="49" max-vertical-offset="720">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.8797654" vertical-offset="0" max-vertical-offset="690">
+        <state line="21" column="118" selection-start="728" selection-end="728" vertical-scroll-proportion="0.41007194" vertical-offset="0" max-vertical-offset="705">
           <folding>
             <element signature="e#0#39#0" expanded="false" />
           </folding>
