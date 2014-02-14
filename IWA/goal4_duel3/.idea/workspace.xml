@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20a10250-8b61-4269-9879-3f011b2e50e5" name="Default" comment="" />
-    <ignored path="goal1_duel1.iws" />
+    <list default="true" id="871e6d09-7eba-40ef-b114-20bb6e040a48" name="Default" comment="" />
+    <ignored path="goal4_duel3.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,14 +19,14 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="goal1_duel1" />
+    <favorites_list name="goal4_duel3" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.038748138" vertical-offset="49" max-vertical-offset="720">
+            <state line="2" column="6" selection-start="25" selection-end="25" vertical-scroll-proportion="0.04477612" vertical-offset="0" max-vertical-offset="670">
               <folding />
             </state>
           </provider>
@@ -35,10 +35,8 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="32" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="705">
-              <folding>
-                <element signature="e#0#39#0" expanded="false" />
-              </folding>
+            <state line="25" column="0" selection-start="782" selection-end="782" vertical-scroll-proportion="0.0" vertical-offset="206" max-vertical-offset="900">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -59,10 +57,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="69" />
-    <option name="y" value="49" />
+    <option name="x" value="79" />
+    <option name="y" value="54" />
     <option name="width" value="1287" />
-    <option name="height" value="792" />
+    <option name="height" value="791" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -94,27 +92,27 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="goal1_duel1" />
+              <option name="myItemId" value="goal4_duel3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="goal1_duel1" />
+              <option name="myItemId" value="goal4_duel3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="goal1_duel1" />
+              <option name="myItemId" value="goal4_duel3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="goal1_duel1" />
+              <option name="myItemId" value="goal4_duel3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="goal1_duel1" />
+              <option name="myItemId" value="goal4_duel3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -124,25 +122,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="goal1_duel1" />
+              <option name="myItemId" value="goal4_duel3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="goal1_duel1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goal1_duel1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goal1_duel1" />
+              <option name="myItemId" value="goal4_duel3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -157,7 +141,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistory" value="" />
+    <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../burridge_justin_debug" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -201,14 +186,14 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="20a10250-8b61-4269-9879-3f011b2e50e5" name="Default" comment="" />
-      <created>1391540151286</created>
-      <updated>1391540151286</updated>
+      <changelist id="871e6d09-7eba-40ef-b114-20bb6e040a48" name="Default" comment="" />
+      <created>1392144691696</created>
+      <updated>1392144691696</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="69" y="49" width="1287" height="792" extended-state="0" />
+    <frame x="79" y="54" width="1287" height="791" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -249,37 +234,61 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="17" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="49" max-vertical-offset="720">
+        <state line="2" column="6" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="585">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="118" selection-start="728" selection-end="728" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="705">
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="7" selection-start="162" selection-end="162" vertical-scroll-proportion="0.30215827" vertical-offset="0" max-vertical-offset="1590" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="32" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="705">
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
+        <state line="25" column="0" selection-start="782" selection-end="782" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="900">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.038748138" vertical-offset="49" max-vertical-offset="720">
+        <state line="13" column="0" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="1202" selection-end="1202" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="6" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="1202" selection-end="1202" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.1023055" vertical-offset="765" max-vertical-offset="1590" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="782" selection-end="782" vertical-scroll-proportion="0.0" vertical-offset="206" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="25" selection-end="25" vertical-scroll-proportion="0.04477612" vertical-offset="0" max-vertical-offset="670">
           <folding />
         </state>
       </provider>
