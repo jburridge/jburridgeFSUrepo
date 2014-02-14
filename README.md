@@ -1,4 +1,4 @@
-WPFrepo
+Full Sail Combined Github
 =======
 
-Programming Fundamentals Class
+The gist of it all
