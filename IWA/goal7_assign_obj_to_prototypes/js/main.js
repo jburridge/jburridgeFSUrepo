@@ -10,6 +10,7 @@
     var jobs = ["teacher", "farmer", "student", "pilot"];
     var actions = ["sleeping", "eating", "working"];
     var peopleList = [];
+    var interval = setInterval(runUpdate, 1000);
 
 //object constructor
     function Person(nameP, jobP, actionP, rowP) {
@@ -17,24 +18,21 @@
         this.job = jobP;
         this.action = actionP;
         this.row = rowP;
+        this.update = function () {
+            console.log('test');
+        }
     }
+
 //fill the object constructor and push into peopleList Arr
     for (var i = 1; i <= 3; i++) {
         var nameR = names[~~(Math.random() * names.length)];
         var jobR = jobs[~~(Math.random() * jobs.length)];
         var actionR = actions[~~(Math.random() * actions.length)];
-//        for (var v = 0; v < 3; v + 5) {
-//            if (nameR == peopleList[(i - 1)].name) {
-//                nameR = names[~~(Math.random() * names.length)];
-//                v - 5;
-//            }
-//        }
 
         var people = new Person(nameR, jobR, actionR, i);
         peopleList.push(people);
-//This console log is telling me that peopleList[1]/[2]/[3] are all undefined <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-// console.log(peopleList); <<<<<<<<<<<<<<< works but isn't exactly what I'm looking for, I need the "i"
-        console.log(peopleList[i]);
+
+        names.splice(names.indexOf(nameR), 1);
     }
 //testing the innerhtml with wrong values and format
     peopleList.forEach(function (e) {
@@ -48,4 +46,11 @@
         elementID = document.querySelector("#r" + e.row + "c" + counter);
         elementID.innerHTML = e.action;
     });
+
+    function runUpdate() {
+        peopleList.forEach(function (element) {
+            element.update();
+        });
+    }
+
 })();
